@@ -1,0 +1,1016 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13996000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am a logged user",
+            "match": {
+              "location": "stepsDefinition.CheckoutSteps.iAmALoggedUser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T18:27:05.983Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeHooks.initExecutor()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Successful order payment",
+        "description": "",
+        "id": "checkout-flow;successful-order-payment;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 607000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2324000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have a product in my Cart",
+            "match": {
+              "location": "stepsDefinition.CheckoutSteps.iHaveAProductInMyCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2729000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I go to the checkout",
+            "match": {
+              "location": "stepsDefinition.CheckoutSteps.iGoToTheCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6197000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am able to complete payment using \"bankwire\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bankwire\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepsDefinition.CheckoutSteps.iAmAbleToCompletePaymentUsingOption(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12990000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am a logged user",
+            "match": {
+              "location": "stepsDefinition.CheckoutSteps.iAmALoggedUser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T18:27:31.949Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeHooks.initExecutor()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Successful order payment",
+        "description": "",
+        "id": "checkout-flow;successful-order-payment;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 630000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2372000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have a product in my Cart",
+            "match": {
+              "location": "stepsDefinition.CheckoutSteps.iHaveAProductInMyCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2655000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I go to the checkout",
+            "match": {
+              "location": "stepsDefinition.CheckoutSteps.iGoToTheCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7807000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am able to complete payment using \"cheque\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cheque\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepsDefinition.CheckoutSteps.iAmAbleToCompletePaymentUsingOption(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout"
+          }
+        ]
+      }
+    ],
+    "name": "Checkout flow",
+    "description": "  As a site user\n  I want to complete checkout flow\n  In order to buy products",
+    "id": "checkout-flow",
+    "keyword": "Feature",
+    "uri": "classpath:features/CheckoutFlow.feature",
+    "tags": [
+      {
+        "name": "@Checkout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8535000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Home page",
+            "match": {
+              "location": "stepsDefinition.SearchSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T18:27:58.423Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeHooks.initExecutor()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "After typing first letters hints are shown",
+        "description": "",
+        "id": "searching-for-products;after-typing-first-letters-hints-are-shown;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 621000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I type initial \"Blou\" of product name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blou\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepsDefinition.SearchSteps.iTypeInitialOfProductName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2225000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"Blouse\" with corresponding product names are shown in the search lookup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blouse\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepsDefinition.SearchSteps.withCorrespondingProductNamesAreShownInTheSearchLookup(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8133000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Home page",
+            "match": {
+              "location": "stepsDefinition.SearchSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T18:28:09.947Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeHooks.initExecutor()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "After typing first letters hints are shown",
+        "description": "",
+        "id": "searching-for-products;after-typing-first-letters-hints-are-shown;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 844000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I type initial \"pri\" of product name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pri\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepsDefinition.SearchSteps.iTypeInitialOfProductName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1778000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"Printed\" with corresponding product names are shown in the search lookup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepsDefinition.SearchSteps.withCorrespondingProductNamesAreShownInTheSearchLookup(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "Searching for products",
+    "description": "  As a site user\n  I want to use search lookup\n  In order find products",
+    "id": "searching-for-products",
+    "keyword": "Feature",
+    "uri": "classpath:features/SearchLookup.feature",
+    "tags": [
+      {
+        "name": "@Search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10243000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Sign In page",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iAmOnSignInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T18:28:20.806Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeHooks.initExecutor()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Successful login using correct credentials",
+        "description": "",
+        "id": "login-user-into-website;successful-login-using-correct-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 639000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 285000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter valid \"imie.nazwisko87@gmail.com\" and \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"imie.nazwisko87@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"test123\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepsDefinition.SignInSteps.iEnterValidAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2992000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Sign in button",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am logged to My Account",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iAmLoggedToMyAccount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignIn"
+          },
+          {
+            "name": "@login_positive"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10639000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Sign In page",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iAmOnSignInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T18:28:35.016Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeHooks.initExecutor()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Unsuccessful login using incorrect credentials",
+        "description": "",
+        "id": "login-user-into-website;unsuccessful-login-using-incorrect-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 668000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 186000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter invalid \"\" or \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepsDefinition.SignInSteps.iEnterInvalidOr(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1706000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Sign in button",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Error \"An email address required.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"An email address required.\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepsDefinition.SignInSteps.errorIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignIn"
+          },
+          {
+            "name": "@login_negative"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9878000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Sign In page",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iAmOnSignInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T18:28:48.256Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeHooks.initExecutor()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Unsuccessful login using incorrect credentials",
+        "description": "",
+        "id": "login-user-into-website;unsuccessful-login-using-incorrect-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 775000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 226000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter invalid \"imie.nazwisko87@gmail.com\" or \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"imie.nazwisko87@gmail.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepsDefinition.SignInSteps.iEnterInvalidOr(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1304000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Sign in button",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Error \"Password is required.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password is required.\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepsDefinition.SignInSteps.errorIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignIn"
+          },
+          {
+            "name": "@login_negative"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9917000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Sign In page",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iAmOnSignInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T18:29:00.482Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeHooks.initExecutor()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Unsuccessful login using incorrect credentials",
+        "description": "",
+        "id": "login-user-into-website;unsuccessful-login-using-incorrect-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 627000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 253000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter invalid \"imie.nazwisko87@gmail.com\" or \"x\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"imie.nazwisko87@gmail.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"x\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepsDefinition.SignInSteps.iEnterInvalidOr(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1312000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Sign in button",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Error \"Invalid password.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password.\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepsDefinition.SignInSteps.errorIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignIn"
+          },
+          {
+            "name": "@login_negative"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9384000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Sign In page",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iAmOnSignInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T18:29:12.630Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeHooks.initExecutor()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Unsuccessful login using incorrect credentials",
+        "description": "",
+        "id": "login-user-into-website;unsuccessful-login-using-incorrect-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 615000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 286000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter invalid \"nieistniejacy91234@gmail.com\" or \"passwo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nieistniejacy91234@gmail.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"passwo\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepsDefinition.SignInSteps.iEnterInvalidOr(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1079000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Sign in button",
+            "match": {
+              "location": "stepsDefinition.SignInSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Error \"Authentication failed.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication failed.\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepsDefinition.SignInSteps.errorIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignIn"
+          },
+          {
+            "name": "@login_negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login user into website",
+    "description": "  As a site user\n  I want to log in\n  In order to access site options",
+    "id": "login-user-into-website",
+    "keyword": "Feature",
+    "uri": "classpath:features/SignIn.feature",
+    "tags": [
+      {
+        "name": "@SignIn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
